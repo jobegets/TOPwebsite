@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    /* We have to set the margin to 0 here for the bg coloring to work properly - body has margin as default */
+     /* fixes whitespace around */
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+ 
+    /* Important Note: We dont flex .links, but instead ul because ul is immediate parent */
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px 0 100px;
+   
+}
+
+.logo{
+    display: flex;
+    flex-shrink: 0;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.first{
+    height: auto; 
+    width: auto;
+    margin: 0px;
+    background-color: bisque;
+}
+
+.placeholder{
+    display: block;
+}
+
+
+
