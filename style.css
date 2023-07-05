@@ -19,7 +19,6 @@ header{
     display: flex;
     justify-content: space-between;
     margin: 0 100px 0 100px;
-   
 }
 
 .logo{
@@ -27,18 +26,153 @@ header{
     flex-shrink: 0;
     margin-top: 10px;
     font-size: 24px;
+    color: #F9FAF8;
 }
 
+.links, 
+.sub{
+    color:  #E5E7EB;
+    font-size: 18px;
+    font-weight:lighter;
+}
+
+.sub{
+    margin: 5px;
+}
 .first{
     height: auto; 
     width: auto;
     margin: 0px;
-    background-color: bisque;
+    background-color: #1F2937;
+}
+
+
+
+.main{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0px;
+
+}
+
+.signup{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 12px;
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+    height: 50px;
+    width: 100px;
+    margin-top: 25px;
+    border-color: #F9FAF8;
+}
+
+.content{
+    display: flex; 
+    justify-content: space-around;
+    margin: 100px;
+  
+}
+
+
+.left{
+    max-width: 400px;
+    margin-bottom: 40px;
+    flex-shrink:0.4;
 }
 
 .placeholder{
-    display: block;
+    width: 400px;
+    height: 200px;
+    background-color: lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink:0.8;
+}
+/* SECOND LAYER */
+.info{
+    text-align: center;
+    margin-top: 30px;
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 25px 0 50px 0;
+    height: 300px;
+}
+.bordered{
+    width: 150px;
+    height: 150px;
+    border-color: #3882F6;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px
 }
 
+.sub2{
+    text-align: start;
+}
 
+.one{
+    max-width: 125px;
+}
+/* THIRD LAYER */
+.content3{
+    background-color: #E5E7EB;
+    display:flex;
+       
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.quote{
+    max-width: 1000px;
+}
+
+q{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.sub3{
+    display:flex;
+    justify-content: end;
+    margin:0px;
+}
+
+/* FOURTH LAYER */
+
+.content4{
+    height: 300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background-color: #3882F6;
+    width: 1000px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.c2a{
+    color:#F9FAF8;
+}
+
+footer{
+    background-color: #1F2937;
+    height:100px;
+    color:#F9FAF8;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+}
 
